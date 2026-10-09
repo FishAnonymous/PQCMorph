@@ -1,0 +1,3 @@
+Using default temp DH parameters
+ACCEPT
+40379DA1367C0000:error:0A000102:SSL routines:tls_early_post_process_client_hello:unsupported protocol:ssl/statem/statem_srvr.c:1780:

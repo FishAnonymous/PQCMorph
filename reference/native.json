@@ -1,0 +1,18 @@
+{
+  "openssl_library": "OpenSSL 3.5.7 9 Jun 2026",
+  "seconds": 3.7103615700034425,
+  "repetitions": 8,
+  "operations": 2000,
+  "compiler": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "flags": [
+    "-O2",
+    "-std=c11",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "source_sha256": "78b889eaad5c69bb0faf5f5d2bc8e38a4e43989db27a1a7ff2c979a59f8ed0b7",
+  "libcrypto_sha256": "0dbdb08bad6f75de74bdc6522e28061533e0f28e26a835731ffc69269a04b20c",
+  "binary_sha256": "939554b1f1b60ec94be7fb0c02c6a9466269744d1714e30e00dd78affd7dd2fd",
+  "timing_scope": "reused EVP contexts; keygen includes allocation/free; encaps includes RNG; decaps reuses final valid ciphertext; no explicit warm-up"
+}
